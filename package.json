@@ -9,7 +9,8 @@
     "unionTypesP2": "tsc scripts/4b_unionTypesP2.ts && node scripts/4b_unionTypesP2.js",
     "interfaces": "tsc scripts/6_interfaces.ts && node scripts/6_interfaces.js",
     "casting": "tsc scripts/7_casting.ts && node scripts/7_casting.js",
-    "enums": "tsc scripts/8_enums.ts && node scripts/8_enums.js"
+    "enums": "tsc scripts/8_enums.ts && node scripts/8_enums.js",
+    "triangles": "tsc scripts/e1_triangles.ts && node scripts/e1_triangles.js"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^2.10.0",
