@@ -7,7 +7,7 @@ npm install -g typescript@latest
 npm install
 ```
 
-None of the exercises in this repo compile properly (it's your job to fix them!), but to make sure your environment is set up properly, start by running the Frankenstein script:
+Most of the exercises in this repo don't compile properly (it's your job to fix them!), but to make sure your environment is set up properly, start by running the Frankenstein script:
 ```npm run frankenstein```
 
 If this succeeds, you can continue with the exercises. You can run them in the same way you brought Frankenstein to life, e.g.:

@@ -20,7 +20,7 @@ const log = (message: string): void => {
   console.log(formattedMessage);
 }
 
-export const script = () => {
+export const script = (): void => {
   const rand: number = Math.random();
 
   if (rand > 0.5) {
