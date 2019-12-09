@@ -11,7 +11,7 @@ type Month = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11;
 
 
 const monthToStr = (num: Month): string => {
-  return months[num - 1];
+  return months[num];
 }
 
 export const script = (): void => {

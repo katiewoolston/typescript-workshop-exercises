@@ -17,7 +17,7 @@
  */
 
 export const script = (): void => {
-  console.log('String as a string:', asString('abc'))
+  console.log('Wolverine:', asString('a man of many talons'))
   console.log('Number as a string:', asString(123))
   console.log('Boolean as a string:', asString(true))
 }
