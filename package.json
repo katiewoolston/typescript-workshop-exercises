@@ -1,6 +1,7 @@
 {
   "scripts": {
     "lint": "eslint --ext .ts scripts",
+    "frankenstein": "tsc scripts/0_frankenstein.ts && node scripts/0_frankenstein.js",
     "variableTypes": "tsc scripts/1_variableTypes.ts && node scripts/1_variableTypes.js",
     "functionParamTypes": "tsc scripts/2_functionParamTypes.ts && node scripts/2_functionParamTypes.js",
     "functionReturnTypes": "tsc scripts/3_functionReturnTypes.ts && node scripts/3_functionReturnTypes.js",

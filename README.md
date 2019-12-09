@@ -7,7 +7,10 @@ npm install -g typescript@latest
 npm install
 ```
 
-Then run the first exercise:
+None of the exercises in this repo compile properly (it's your job to fix them!), but to make sure your environment is set up properly, start by running the Frankenstein script:
+```npm run frankenstein```
+
+If this succeeds, you can continue with the exercises. You can run them in the same way you brought Frankenstein to life, e.g.:
 ```npm run variableTypes```
 
 Once you've completed the first file, replace the filename with the next test file and keep going.
