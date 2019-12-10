@@ -1,5 +1,6 @@
 /**
  * Exercise 2
+ *
  * In this challenge you must draw an analogue clock face.
  *
  * - Each hour mark should be drawn with 'o'.

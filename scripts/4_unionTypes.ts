@@ -10,11 +10,15 @@
  * a value could legitimately be. Anything outside of these will be flagged by
  * TypeScript.
  *
- * Your task is to write a function asString that accepts the appropriate
- * types and returns a string representation of each one.
- *
- * (Note, the easiest way to convert to a string is: `${var}`.)
+ * Your task is to update the type AsStringType to accept the types
+ * it is being used with
  */
+
+type AsStringType = undefined;
+
+ const asString = (input: AsStringType): string => {
+   return `${input}`;
+ }
 
 export const script = (): void => {
   console.log('Wolverine:', asString('a man of many talons'))

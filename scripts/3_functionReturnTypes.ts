@@ -9,6 +9,8 @@
  *
  * Your task is to update the function to return the generated array
  * and specify the corresponding type of the returned value.
+ *
+ * Note that an array type looks like this: <array element type>[]
  */
 
 
@@ -17,6 +19,7 @@ const newArray = (length: number, populateWith: number): void => {
   for (let i = 0; i < length; i++) {
     arr[i] = populateWith;
   }
+  return arr;
 }
 
 export const script = (): void => {

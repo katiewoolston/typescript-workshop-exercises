@@ -7,6 +7,7 @@
     "functionReturnTypes": "tsc scripts/3_functionReturnTypes.ts && node scripts/3_functionReturnTypes.js",
     "unionTypes": "tsc scripts/4_unionTypes.ts && node scripts/4_unionTypes.js",
     "unionTypesP2": "tsc scripts/4b_unionTypesP2.ts && node scripts/4b_unionTypesP2.js",
+    "optionalValues": "tsc scripts/5_optionalValues.ts && node scripts/5_optionalValues.js",
     "interfaces": "tsc scripts/6_interfaces.ts && node scripts/6_interfaces.js",
     "casting": "tsc scripts/7_casting.ts && node scripts/7_casting.js",
     "enums": "tsc scripts/8_enums.ts && node scripts/8_enums.js",

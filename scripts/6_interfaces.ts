@@ -10,7 +10,7 @@ interface Car {
   colour: string;
   make: string;
   model: string;
-  automatic?: boolean; // ? means optional
+  automatic?: boolean;
 }
 
 const logCarInfo = (car: Car): void => {

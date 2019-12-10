@@ -6,7 +6,7 @@
  */
 
 const log = (message): void => {
-  console.log(message);
+  console.log(`Your message is: ${message}`);
 }
 
 export const script = (): void => {

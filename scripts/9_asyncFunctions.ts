@@ -1,11 +1,13 @@
 /**
- * Asynchronous functions always return a promise.
+ * Asynchronous functions always return a promise, so their return
+ * type needs to be a promise.
+ * This looks like:
+ *    Promise<void> (if the function doesn't return anything)
+ * or:
+ *    Promise<number> (or whatever the type of the returned value is)
  *
- * In the case of 'saveData' below, it returns the string 'success!',
- * but wrapped in a promise.
- *
- * Update the function definition of 'saveData' to return a promise (instead
- * of just a string)
+ * Update the function definition of 'saveData' to set the return type
+ * as a promise (instead of just a string)
  */
 
  // We emulate the behaviour of an API call by introducing a 200ms delay;
