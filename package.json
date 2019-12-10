@@ -10,7 +10,9 @@
     "interfaces": "tsc scripts/6_interfaces.ts && node scripts/6_interfaces.js",
     "casting": "tsc scripts/7_casting.ts && node scripts/7_casting.js",
     "enums": "tsc scripts/8_enums.ts && node scripts/8_enums.js",
-    "triangles": "tsc scripts/e1_triangles.ts && node scripts/e1_triangles.js"
+    "asyncFunctions": "tsc scripts/9_asyncFunctions.ts && node scripts/9_asyncFunctions.js",
+    "triangles": "tsc scripts/e1_triangles.ts && node scripts/e1_triangles.js",
+    "clocks": "tsc scripts/e2_clocks.ts && node scripts/e2_clocks.js"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^2.10.0",

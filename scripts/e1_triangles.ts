@@ -5,9 +5,9 @@
  *
  * Update the script function to iterate through each one and determine
  * what kind of triangle it is:
- *   * scalene (all sides different)
- *   * isoceles (two sides the same)
- *   * equilateral (all sides the same)
+ *   - scalene (all sides different)
+ *   - isoceles (two sides the same)
+ *   - equilateral (all sides the same)
  * Print a represent
  *
  * Start by defining a 'Triangle' interface with each of the side attributes,
