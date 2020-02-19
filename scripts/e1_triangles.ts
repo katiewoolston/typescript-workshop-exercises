@@ -8,7 +8,6 @@
  *   - scalene (all sides different)
  *   - isoceles (two sides the same)
  *   - equilateral (all sides the same)
- * Print a represent
  *
  * Start by defining a 'Triangle' interface with each of the side attributes,
  * then use this type when working with the triangles.

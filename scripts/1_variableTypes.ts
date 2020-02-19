@@ -9,6 +9,10 @@
  * Also try seeing what happens if you remove the 'number' type from 'sum' -
  * this will compile successfully, but we're going to get the wrong outcome. This is
  * an example of why the types in TypeScript are so helpful.
+ *
+ * Typescript prevents us from making silly mistakes by causing the compilation to fail
+ * when rules are violated. But it doesn't cover everything, which is why it's important
+ * to use it in conjunction with linting.
  */
 
 export const script = (): void => {

@@ -1,6 +1,7 @@
 /**
  * When writing functions, you should always specify the type
- * of the returned value. You can do this as follows:
+ * of the returned value. For example, if our function is going to
+ * return a boolean, we'll write:
  *
  * const numberAsBool = (num: number): boolean => !!num;
  *
