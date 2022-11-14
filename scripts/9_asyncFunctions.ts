@@ -10,9 +10,9 @@
  * as a promise (instead of just a string)
  */
 
- // We emulate the behaviour of an API call by introducing a 200ms delay;
+// We emulate the behaviour of an API call by introducing a 200ms delay;
 const saveData = async (data: string): string => {
-  await new Promise(resolve => {
+  await new Promise<void>(resolve => {
     setTimeout(() => {
       console.log('saved data', data);
       resolve();
