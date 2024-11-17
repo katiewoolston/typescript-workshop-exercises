@@ -18,13 +18,13 @@
     "clocks": "ts-node scripts/e2_clocks.js"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^2.10.0",
-    "eslint": "^6.7.2",
+    "@typescript-eslint/parser": "^8.14.0",
+    "eslint": "^9.15.0",
     "ts-node": "^10.9.2",
     "tslint": "^5.20.1",
     "typescript": "^3.7.3"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.10.0"
+    "@typescript-eslint/eslint-plugin": "^8.14.0"
   }
 }
